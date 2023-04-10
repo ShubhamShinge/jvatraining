@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: product-app-final
+Bundle-SymbolicName: product-app-final
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: product-app-final.jar,
+ sshinge/Downloads/lombok.jar
+Automatic-Module-Name: product.app.final
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: com.training,
+ com.training.pms.galaxe.aop,
+ com.training.pms.galaxe.controller,
+ com.training.pms.galaxe.dao,
+ com.training.pms.galaxe.model,
+ com.training.pms.galaxe.service
